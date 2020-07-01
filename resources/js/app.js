@@ -19,8 +19,10 @@ Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 window.Form=Form;
 import test from "./components/test";
+import Users from "./views/admin/Users";
 let routes = [
     { path: '/test', component: test },
+    { path: '/users', component: Users },
 ]
 
 const router = new VueRouter({
